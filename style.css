@@ -1,0 +1,90 @@
+body {
+  text-align: center;
+  background: linear-gradient(135deg, #141e30, #243b55);
+  color: white;
+  font-family: Arial, sans-serif;
+  min-height: 95vh;
+}
+
+@media (max-width: 600px) {
+  .btn {
+    height: 100px;
+    width: 100px;
+    margin: 0.7rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+}
+
+.game-box {
+  max-width: 800px;
+  width: 90%;
+  height: 750px;
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.btn {
+  height: 200px;
+  width: 200px;
+  border-radius: 20%;
+  border: 10px solid black;
+  margin: 2.5rem;
+  transition: 0.2s;
+  cursor: pointer;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+.btn:active {
+  transform: scale(0.95);
+}
+
+.yellow {
+  background-color: rgb(239, 205, 81);
+}
+
+.red {
+  background-color: rgb(230, 72, 40);
+}
+
+.purple {
+  background-color: rgb(218, 89, 218);
+}
+
+.green {
+  background-color: rgb(118, 208, 62);
+}
+
+.flash {
+  background-color: white;
+  opacity: 0.7;
+}
+
+.userFlash {
+  background-color: green;
+}
+
+.footer {
+  margin-top: 20px;
+  color: #ddd;
+  font-size: 14px;
+}
